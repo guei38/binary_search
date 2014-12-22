@@ -1,4 +1,5 @@
 # binay search
+# toby's test
 import pdb
 
 my_list = [1,2,5,7,11,23,24,25]
@@ -26,7 +27,7 @@ def binary_search(sorted_array, value, start=0, end=-1):
 
     else:
         return binary_search(sorted_array, value, middle+1, end)
-    
+
 
 
 #UNIT TEST, a function to test a function.
